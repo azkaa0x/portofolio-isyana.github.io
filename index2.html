@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Isyana</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <header>
+        <!-- Fitur foto ditambahkan di sini -->
+        <img src="foto.jpg" alt="Foto Profil Isyana" style="width: 100px; height: 100px; border-radius: 50%; float: left; margin-right: 20px;">
+        <h1>Portofolio Isyana</h1>
+        <p>Menampilkan karya, pengalaman, dan kemampuan saya</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home" id="home-link">Home</a></li>
+            <li><a href="#profile" id="profile-link">Profile</a></li>
+            <li><a href="#karya" id="karya-link">Karya & Project</a></li>
+            <li><a href="#media" id="media-link">Media</a></li>
+            <li><a href="#kontak" id="kontak-link">Informasi & Kontak</a></li> <!-- Menu baru -->
+        </ul>
+    </nav>
+    
+    <div class="content">
+        <!-- Home Section -->
+        <div id="home" class="section active">
+            <h2>Selamat Datang di Portofolio Saya</h2>
+            <p>Halo! Saya Isyana Azka Rainandini, seorang mahasiswi Universitas Pamulang yang tertarik pada pengembangan diri, kreativitas, dan pembelajaran</p>
+            <p>Website ini berisi informasi tentang saya, pengalaman, serta karya yang pernah saya buat.</p>
+        </div>
+        
+        <!-- Profile Section -->
+        <div id="profile" class="section">
+            <h2>Profile Saya</h2>
+            <p><strong>Nama:</strong> Isyana Azka Rainandini</p>
+            <p><strong>Deskripsi:</strong> Saya adalah mahasiswi Program Studi Sistem Informasi di Universitas Pamulang. Saya memiliki ketertarikan pada pemanfaatan teknologi informasi dalam mendukung proses bisnis dan pengembangan sistem. Terbiasa mengerjakan tugas berbasis analisis, perancangan sistem, serta penggunaan teknologi digital.</p>
+            <p><strong>Keahlian:</strong> Membuat desain grafis, konten visual, foto, dan video untuk berbagai kebutuhan komunikasi dan promosi. Serta membuat dasar pemrograman web (HTML, CSS, JavaScript dasar)</p>
+            <p><strong>Misi:</strong> Mengembangkan kemampuan di bidang teknologi informasi, khususnya sistem informasi dan jaringan komputer, serta menerapkan ilmu yang saya miliki untuk menciptakan solusi digital yang bermanfaat dan efisien.</p>
+        </div>
+        
+        <!-- Karya & Project Section -->
+        <div id="karya" class="section">
+            <h2>Karya & Project</h2>
+            <p>Berikut adalah beberapa proyek yang telah saya kembangkan atau kontribusikan:</p>
+            <ul>
+                <li><strong>Sistem Informasi Sederhana:</strong> Mengembangkan sistem informasi berbasis web untuk kebutuhan akademik/tugas kuliah.</li>
+                <li><strong>Perancangan Database:</strong> Proyek untuk merancang dan mengelola database untuk aplikasi bisnis atau akademik.</li>
+                <li><strong>Proyek Jaringan Komputer:</strong> Kontribusi dalam konfigurasi jaringan dan troubleshooting untuk lingkungan kampus atau perusahaan kecil.</li>
+                <li><strong>Integrasi Teknologi Digital:</strong> Pengembangan alat sederhana untuk integrasi data dan analisis dasar.</li>
+            </ul>
+            <p>Apabila ingin melihat kode atau demo proyek, jangan ragu untuk menghubungi saya melalui halaman Kontak!</p>
+        </div>
+        
+        <!-- Media Section -->
+        <div id="media" class="section">
+            <h2>Koleksi Media</h2>
+            <p>Berikut adalah koleksi gambar, video, dan dokumen tentang saya:</p>
+            
+            <div class="media-item">
+                <h3>Gambar: Foto Profil</h3>
+                <img src="image.jpg" alt="Foto Profil Isyana" width="300">
+            </div>
+            
+            <div class="media-item">
+                <h3>Video:</h3>
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+            
+            <div class="media-item">
+                <h3>Audio:</h3>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Browser Anda tidak mendukung tag audio.
+                </audio>
+            </div>
+            
+            <div class="media-item">
+                <h3>Dokumen: CV Isyana</h3>
+                <a href="file:///Users/ynaazka/Downloads/CV%20Isyana%20Azka%20(1).pdf" target="_blank">Unduh CV Isyana (Placeholder)</a>
+                <p>Curriculum Vitae lengkap saya, termasuk pengalaman dan pendidikan.</p>
+            </div>
+        </div>
+        
+        <!-- Informasi & Kontak Section (Baru) -->
+        <div id="kontak" class="section">
+            <h2>Informasi & Kontak</h2>
+            <p>Berikut adalah informasi lebih lanjut tentang saya dan cara menghubungi:</p>
+            
+            <h3>Informasi Pribadi</h3>
+            <ul>
+                <li><strong>Alamat:</strong> Pamulang, Tangerang Selatan, Banten, Indonesia</li>
+                <li><strong>Email:</strong> isyanaazka857@gmail.com</li>
+                <li><strong>Telepon:</strong> +62 895-1957-1633</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/isyana-azka-rainandini-89ab633a2/" target="_blank">linkedin.com/in/isyana-azka</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/azkaa0x" target="_blank">github.com/isyana-azka</a></li>
+            </ul>
+            
+            <h3>Hubungi Saya</h3>
+            <p>Jika Anda tertarik dengan karya saya atau ingin berkolaborasi, silakan isi form di bawah ini atau hubungi langsung via email.</p>
+            
+            <form id="contact-form">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            
+            <p id="form-response" style="margin-top: 1rem; color: green;"></p> <!-- Tempat untuk respons form -->
+        </div>
+    </div>
+    
+    <script src="script2.js"></script> <!-- Link ke file JS -->
+</body>
+</html>
